@@ -14,10 +14,11 @@ def is_sum_of_factors_equal_to_factorial(number):
     return factors_sum == factorial_value
 
 # Example usage:
-number_to_check = 6
+number_to_check = int(input("Enter the number: "))
 result = is_sum_of_factors_equal_to_factorial(number_to_check)
 
 if result:
     print(f"The sum of factors of {number_to_check} is equal to its factorial.")
 else:
     print(f"The sum of factors of {number_to_check} is not equal to its factorial.")
+    

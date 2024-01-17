@@ -13,4 +13,4 @@ def count_digits(number):
 number_to_check = 12345
 result = count_digits(number_to_check)
 
-print(f"The number of digits in {number_to_check} is: {result}")
+print(f"The number of digit s in {number_to_check} is: {result}")
